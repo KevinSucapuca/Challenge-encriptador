@@ -10,7 +10,7 @@
 }
 
 .text-area{
-    border: none;
+    border: 1;
     color: #0A3871;
     margin-top: 150px;
     text-transform: lowercase;
@@ -242,4 +242,221 @@ main{
     background-color: #fff;
     border-radius: 20px;
     margin-right: 20px;
+}
+
+
+
+@media only screen and (min-width: 290px) and (max-width: 1024px) {
+
+    .nombre{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        margin: 30px 0 20px 0;
+        font-size: 20px;
+        font-weight: 700;
+        text-shadow: 2px 1px 5px black;
+        text-transform: uppercase;
+        
+    }
+
+    
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 270px;
+
+
+}
+
+
+
+
+
+.text-area{
+    border: 1;
+    color: #0A3871;
+    margin-top: 150px;
+    text-transform: lowercase;
+    margin-left: -270px;
+    
+}
+
+.mensaje:focus{
+    outline: none;
+
+}
+
+.text-area:focus{
+    outline: none;
+}
+
+.informacion{
+    color: #5a2c2c;
+    font-size: 18px;
+    margin-left: -250px;
+
+}
+
+
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 55px;
+    width: 180px;
+    margin-left: -250px;
+}
+
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 55px;
+    margin-left:20px;
+    width: 180px;
+}
+
+
+
+.mensaje{
+    width: 350px;
+    height: 680px;
+    background: white;
+    background-image: url("imagenes/Muneco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: -497px;
+    margin-top:850px;
+    padding: 10px 20px 40px 40px;
+    position: fixed;
+    background-position: center;
+    
+    
+    
+}
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 55px;
+    margin-left: -400px;
+    margin-top: 1490px;
+    position: absolute;
+    width: 190px;
+}
+
+
+
+
+    .change_content:after {
+        content: "";
+        animation: changetext 15s infinite linear;
+        color: #d3753f;
+        
+    }
+    
+    @keyframes changetext {
+        20% {
+        content: "ORACLE";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgb(173, 158, 17);
+        font-weight: bold;
+        margin: 30px 0 20px 0;
+        font-size: 20px;
+        font-weight: 700;
+        text-shadow: 2px 1px 5px black;
+        text-transform: uppercase;
+        }
+    
+    
+        30% {
+            content: "ORACLE";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgb(150, 22, 22);
+            font-weight: bold;
+            margin: 30px 0 20px 0;
+            font-size: 20px;
+            font-weight: 700;
+            text-shadow: 2px 1px 5px black;
+            text-transform: uppercase;
+            }
+    
+    
+        50% {
+            content: "ORACLE";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgb(214, 218, 24);
+            font-weight: bold;
+            margin: 30px 0 20px 0;
+            font-size: 20px;
+            font-weight: 700;
+            text-shadow: 2px 1px 5px black;
+            text-transform: uppercase;
+            }
+    
+    
+        70% {
+            content: "ORACLE";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgb(0, 255, 213);
+            font-weight: bold;
+            margin: 30px 0 20px 0;
+            font-size: 20px;
+            font-weight: 700;
+            text-shadow: 2px 1px 5px black;
+            text-transform: uppercase;
+            }
+    
+    
+        
+        100% {
+        content: "ORACLE";
+        color: #0A3871;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        margin: 30px 0 20px 0;
+        font-size: 20px;
+        font-weight: 700;
+        text-shadow: 2px 1px 5px black;
+        text-transform: uppercase;
+        }
+    }
+
+
+
+
+
+
+
+
 }

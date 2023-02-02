@@ -8,8 +8,15 @@ const mensaje = document.querySelector(".mensaje");
 // `La letra "o" es convertida para "ober"`
 // `La letra "u" es convertida para "ufat"`
 
+const borrarAcentos = (str) => {      // Función para quitar las acentuaciones a las letras
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); 
+    } 
+
+
+
 function btnEncriptar(){
     const textoEncriptado = encriptar(textArea.value)
+
     mensaje.value = textoEncriptado
     textArea.value = ""
     mensaje.style.backgroundImage = "none"
@@ -23,7 +30,7 @@ function btnEncriptar(){
 function encriptar(stringEncriptado) {
 
     let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
-    stringEncriptado = stringEncriptado.toLowerCase()
+    stringEncriptado = borrarAcentos(stringEncriptado).toLowerCase()
 
     for(let i = 0; i < matrizCodigo.length; i++) {
 
