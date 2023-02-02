@@ -1,35 +1,157 @@
 *{
-    background: #F3F5FC;
+    background: #a3b8b8;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
+    
 
 }
 
-.logo{
+
+
+
+.change_content:after {
+    content: "";
+    animation: changetext 15s infinite linear;
+    color: #d3753f;
+    
+}
+
+@keyframes changetext {
+    20% {
+    content: "ORACLE";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(173, 158, 17);
+    font-weight: bold;
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+    }
+
+
+    30% {
+        content: "ORACLE";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgb(150, 22, 22);
+        font-weight: bold;
+        margin: 30px 0 20px 0;
+        font-size: 55px;
+        font-weight: 700;
+        text-shadow: 2px 1px 5px black;
+        text-transform: uppercase;
+        }
+
+
+    50% {
+        content: "ORACLE";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgb(214, 218, 24);
+        font-weight: bold;
+        margin: 30px 0 20px 0;
+        font-size: 55px;
+        font-weight: 700;
+        text-shadow: 2px 1px 5px black;
+        text-transform: uppercase;
+        }
+
+
+    70% {
+        content: "ORACLE";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgb(0, 255, 213);
+        font-weight: bold;
+        margin: 30px 0 20px 0;
+        font-size: 55px;
+        font-weight: 700;
+        text-shadow: 2px 1px 5px black;
+        text-transform: uppercase;
+        }
+
+
+    
+    100% {
+    content: "ORACLE";
+    color: #0A3871;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+    }
+}
+
+.nombre{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+
+.texto-alura{
+    
     padding-top: 10px;
+    padding-left: 10px;
     margin-left: 10px;
-    width: 15%;
+    position: absolute;
+    float: left;
+    width: 90%;
+    border: none;
+    height: auto;
 }
+
+
 
 main{
     display: flex;
     margin-bottom: 50px;
-    margin-left: 330px;
+    margin-left: 270px;
+
 }
+
+
+    
+    
+
 
 .text-area{
     border: none;
     color: #0A3871;
-    margin-top: 40px;
+    margin-top: 150px;
     text-transform: lowercase;
     margin-left: 50px;
 }
 
 ::placeholder{
-    color: #0A3871;
+    color: #05264e;
     
 }
 .text-area:focus{
@@ -45,8 +167,8 @@ main{
     border: none;
     border-radius: 24px;
     color: #0A3871;
-    margin-left: 98px;
-    margin-top:20px;
+    margin-left: 128px;
+    margin-top:140px;
     padding: 10px 20px 40px 40px;
     position: fixed;
     background-position: center;
@@ -96,14 +218,14 @@ main{
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    margin-left: 140px;
-    margin-top: 643px;
+    margin-left: 168px;
+    margin-top: 753px;
     position: absolute;
     width: 336px;
 }
 
 .informacion{
-    color: #495057;
+    color: #5a2c2c;
     font-size: 18px;
 }
 
