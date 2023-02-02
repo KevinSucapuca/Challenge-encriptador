@@ -10,7 +10,7 @@
 }
 
 .text-area{
-    border: 1;
+    border: none;
     color: #0A3871;
     margin-top: 150px;
     text-transform: lowercase;
@@ -278,7 +278,7 @@ main{
 
 
 .text-area{
-    border: 1;
+    border: none;
     color: #0A3871;
     margin-top: 150px;
     text-transform: lowercase;
