@@ -17,6 +17,7 @@ Las "llaves" de encriptación son las siguientes:
 <hr>
 ✔️ **Requisitos**
 <hr>
+
 - Debe funcionar solo con letras minúsculas.
 - No deben ser utilizados letras con acentos ni caracteres especiales.
 - Debe ser posible convertir una palabra a la versión encriptada y también devolver una palabra encriptada a versión original.
@@ -30,4 +31,5 @@ El resultado debe ser mostrado en la pantalla.
 <hr>
 ✔️ **Extras**
 <hr>
+
 - Botón que copie el texto desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C.
